@@ -1,1 +1,3 @@
-FROM mcr.microsoft.com/devcontainers/ruby:3-bullseye
+FROM hashicorp/terraform:1.6.3
+
+CMD [ "bash" ]
