@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ -f config/app.rb ]; then
-  exec bundle exec terraspace "$@"
-else
-  exec terraspace "$@"
-fi
